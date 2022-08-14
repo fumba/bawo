@@ -4,7 +4,10 @@ import { devLog } from '../utils';
 class PlayScreen extends Stage {
   constructor() {
     super();
-    this.world = game.world;
+
+    const { world, viewport } = game;
+    this.world = world;
+    this.viewport = viewport;
     devLog('[PlayScreen] initiated...');
   }
 
@@ -17,7 +20,7 @@ class PlayScreen extends Stage {
 
     // add a font text display object
     this.world.addChild(
-      new BitmapText(game.viewport.width / 2, game.viewport.height / 2, {
+      new BitmapText(this.viewport.width / 2, this.viewport.height / 2, {
         font: 'PressStart2P',
         size: 4.0,
         textBaseline: 'middle',
