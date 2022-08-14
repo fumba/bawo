@@ -11,7 +11,7 @@
     "@babel/register": "^7.18.9",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
-    "favicons": "^7.0.0-beta.4",
+    "favicons": "^6.2.2",
     "favicons-webpack-plugin": "^5.0.2",
     "fs": "^0.0.1-security",
     "html-webpack-plugin": "^5.5.0",
