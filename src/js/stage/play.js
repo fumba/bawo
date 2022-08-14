@@ -1,9 +1,11 @@
 import { Stage, game, ColorLayer, BitmapText } from 'melonjs/dist/melonjs.module';
+import { devLog } from '../utils';
 
 class PlayScreen extends Stage {
   constructor() {
     super();
     this.world = game.world;
+    devLog('[PlayScreen] initiated...');
   }
 
   /**

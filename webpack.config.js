@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const { devLog } = require('./src/js/utils');
 require('@babel/register');
 
 module.exports = {
@@ -57,7 +56,8 @@ module.exports = {
               misc.test(resourcePath);
 
             if (ret === false) {
-              devLog(`ignoring data: ${resourcePath}`);
+              // eslint-disable-next-line no-console
+              console.log(`ignoring data: ${resourcePath}`);
             }
             return ret;
           }
