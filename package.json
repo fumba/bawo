@@ -11,8 +11,14 @@
     "@babel/register": "^7.18.9",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
     "fs": "^0.0.1-security",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.7.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
@@ -20,7 +26,10 @@
   "browserslist": "defaults",
   "scripts": {
     "dev": "webpack-dev-server --mode=development --config webpack.config.js",
-    "build": "webpack --mode=production --config webpack.config.js"
+    "build": "webpack --mode=production --config webpack.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,css,md,json}'"
   },
   "dependencies": {
     "core-js": "^3.24.1",
