@@ -25,7 +25,7 @@ class PlayScreen extends Stage {
         size: 2.0,
         textBaseline: 'middle',
         textAlign: 'center',
-        text: 'Bawo.zone !'
+        text: 'Bawo Game !'
       })
     );
   }
