@@ -5,7 +5,7 @@ class TitleScreen extends Stage {
    *  action to perform on state change
    */
   onResetEvent() {
-    // TODO
+    
   }
 
   /**

@@ -22,10 +22,10 @@ class PlayScreen extends Stage {
     this.world.addChild(
       new BitmapText(this.viewport.width / 2, this.viewport.height / 2, {
         font: 'PressStart2P',
-        size: 4.0,
+        size: 2.0,
         textBaseline: 'middle',
         textAlign: 'center',
-        text: 'Hello World !'
+        text: 'Bawo Game !'
       })
     );
   }
