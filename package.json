@@ -33,7 +33,7 @@
     "format": "prettier --write './**/*.{js,css,md,json}'"
   },
   "dependencies": {
-    "core-js": "^3.24.1",
+    "core-js": "^3.25.0",
     "css-loader": "^6.7.1",
     "melonjs": "^13.3.0",
     "style-loader": "^3.3.1"
