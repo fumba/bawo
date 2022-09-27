@@ -1859,7 +1859,7 @@ core-js-compat@^3.21.0, core-js-compat@^3.22.1:
     browserslist "^4.21.3"
     semver "7.0.0"
 
-core-js@^3.25.0, core-js@^3.25.3:
+core-js@^3.25.3:
   version "3.25.3"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.3.tgz#cbc2be50b5ddfa7981837bd8c41639f27b166593"
   integrity sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
@@ -3260,13 +3260,13 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-melonjs@^13.3.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-13.3.0.tgz#98490e5d521d05c4e2fff59030427f25e4d6b454"
-  integrity sha512-/d/jjfku5RZAbOoEmIrYjzg4EDob6oe1y2w6Q5Tci9COl5kI+xiJmedOrh6Vv2TxOg1B6nuH4lEbitw5ckNKdA==
+melonjs@^13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-13.4.0.tgz#79511006582f77c4c9c40bc9e3907809bb24fe55"
+  integrity sha512-voUzbGeVVYVzCxv0AW6zX8EXw5nVF8KkWl0nQhtYCQD3PzhLfnxQgLzVUuq1i93ZykXOR3SlDeuER8usBx/X1w==
   dependencies:
     "@teppeis/multimaps" "^2.0.0"
-    core-js "^3.25.0"
+    core-js "^3.25.3"
     earcut "2.2.4"
     eventemitter3 "^4.0.7"
     howler "2.2.3"
