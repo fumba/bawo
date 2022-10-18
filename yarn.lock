@@ -3278,10 +3278,10 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-melonjs@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-14.0.0.tgz#38340e42f517f73c5cd8823abe6175a0293bc613"
-  integrity sha512-oPuq0KeBS5jiMHpsvsmiVP0ZQDqmRX7g2cPyvShGvUmcK872mfU05gGF6M+WiIsn36x/7FYwruMujqpje/dr1A==
+melonjs@^14.0.2:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-14.0.2.tgz#e0d120c46db48eaa05a395a644417decdafe2768"
+  integrity sha512-mwPXLXCPNA2tb57dOQKEK9rYxft4WmyK3Iz7rUsWhw/8xx43iAiYMcqfWplsKMyzfrvhneRP16xZDMvHeFJkLg==
   dependencies:
     "@teppeis/multimaps" "^2.0.0"
     core-js "^3.25.5"
