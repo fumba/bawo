@@ -1069,10 +1069,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@teppeis/multimaps@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@teppeis/multimaps/-/multimaps-2.0.0.tgz#2114ee964b702f9777d0e07899087ad9cd89a0de"
-  integrity sha512-TL1adzq1HdxUf9WYduLcQ/DNGYiz71U31QRgbnr0Ef1cPyOUOsBojxHVWpFeOSUucB6Lrs0LxFRA14ntgtkc9w==
+"@teppeis/multimaps@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@teppeis/multimaps/-/multimaps-3.0.0.tgz#bb9c3f8d569f589e548586fa0bbf423010ddfdc5"
+  integrity sha512-ID7fosbc50TbT0MK0EG12O+gAP3W3Aa/Pz4DaTtQtEvlc9Odaqi0de+xuZ7Li2GtK4HzEX7IuRWS/JmZLksR3Q==
 
 "@types/body-parser@*":
   version "1.19.2"
@@ -1858,10 +1858,10 @@ core-js-compat@^3.25.1:
   dependencies:
     browserslist "^4.21.4"
 
-core-js@^3.25.3, core-js@^3.26.0:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.0.tgz#a516db0ed0811be10eac5d94f3b8463d03faccfe"
-  integrity sha512-+DkDrhoR4Y0PxDz6rurahuB+I45OsEUv8E1maPTB6OuHRohMMcznBq9TMpdpDMm/hUPob/mJJS3PqgbHpMTQgw==
+core-js@^3.25.3, core-js@^3.30.1:
+  version "3.30.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.1.tgz#fc9c5adcc541d8e9fa3e381179433cbf795628ba"
+  integrity sha512-ZNS5nbiSwDTq4hFosEDqm65izl2CWmLz0hARJMyNQBgkUZMIF51cQiMvIQKA6hvuaeWxQDP3hEedM1JZIgTldQ==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -2345,10 +2345,15 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-eventemitter3@^4.0.0, eventemitter3@^4.0.7:
+eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
+eventemitter3@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.0.tgz#084eb7f5b5388df1451e63f4c2aafd71b217ccb3"
+  integrity sha512-riuVbElZZNXLeLEoprfNYoDSwTBRR44X3mnhdI1YcnENpWTCsTTVZ2zFuqQcpoyqPQIUXdiPEU0ECAq0KQRaHg==
 
 events@^3.2.0:
   version "3.3.0"
@@ -3258,15 +3263,15 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-melonjs@^14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-14.1.0.tgz#cf9ddb58a31c21450bbf6996774b96c2ba4de9cf"
-  integrity sha512-69OprZO1D0ETNbn4Bnq1tzBbuWP0EVw9Pdj+lQM9W3VGbPBMYrBAdYff+G3GsREdIQWMSy9G14jhskGVJRoVHw==
+melonjs@^15.1.4:
+  version "15.1.4"
+  resolved "https://registry.yarnpkg.com/melonjs/-/melonjs-15.1.4.tgz#646b0651f9711cd6398221101b59cbcf20052cdc"
+  integrity sha512-1FjZnzOgeJhGgCtFjFPgYwfY+BiUQdDBX+RFLXWINvowDSSEofwRAKQw8PNuAATO8mRc0+LcBC+QAcQG8zakdw==
   dependencies:
-    "@teppeis/multimaps" "^2.0.0"
-    core-js "^3.26.0"
+    "@teppeis/multimaps" "^3.0.0"
+    core-js "^3.30.1"
     earcut "2.2.4"
-    eventemitter3 "^4.0.7"
+    eventemitter3 "^5.0.0"
     howler "2.2.3"
 
 memfs@^3.4.3:
